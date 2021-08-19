@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,9 +8,74 @@
 	<link rel="stylesheet" href="css/style.css">
 	<title>Responsive Pepsi Website Landing Page</title>
 </head>
-<body>
-	
+
+<body class="body">
+	<section class="sec">
+
+		<header class="header">
+			<a href="#"><img class="logo" src="img/logo.png" alt=""></a>
+			<ul class="nav">
+				<li class="nav-list">
+					<a class="nav-link" href="#">Home</a>
+				</li>
+				<li class="nav-list">
+					<a class="nav-link" href="#">Products</a>
+				</li>
+				<li class="nav-list">
+					<a class="nav-link" href="#">What's new</a>
+				</li>
+				<li class="nav-list">
+					<a class="nav-link" href="#">Newsletter</a>
+				</li>
+				<li class="nav-list">
+					<a class="nav-link" href="#">Contact</a>
+				</li>
+			</ul>
+		</header>
+
+		<div class="content">
+			<div class="text-box">
+				<h2>That's What<br><span>I like</span></h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, voluptates necessitatibus nam nesciunt
+					similique mollitia vero perferendis ut suscipit? Ad magni distinctio fugit explicabo enim tempore culpa
+					ea consectetur accusantium.</p>
+				<a href="#">View All Products</a>
+			</div>
+			<div class="img-box">
+				<img class="pepsi" src="img/pepsi001.png">
+			</div>
+		</div>
+
+		<ul class="thumb">
+			<li class="thumb-list">
+				<img class="thumb-img" src="img/pepsi001.png"
+					onclick="imgSlider('img/pepsi001.png');changeBgColor('#0062be')">
+			</li>
+			<li class="thumb-list">
+				<img class="thumb-img" src="img/pepsi002.png"
+					onclick="imgSlider('img/pepsi002.png');changeBgColor('#e60c2c')">
+			</li>
+			<li class="thumb-list">
+				<img class="thumb-img" src="img/pepsi003.png"
+					onclick="imgSlider('img/pepsi003.png');changeBgColor('#1e1e1e')">
+			</li>
+		</ul>
+
+		<ul class="social-icon">
+			<li>
+				<img class="social-icon-img" src="img/facebook.png" alt="facebook">
+			</li>
+			<li>
+				<img class="social-icon-img" src="img/twitter.png" alt="twitter">
+			</li>
+			<li>
+				<img class="social-icon-img" src="img/instagram.png" alt="instagram">
+			</li>
+		</ul>
+
+	</section>
 
 	<script src="js/main.js"></script>
 </body>
+
 </html>
